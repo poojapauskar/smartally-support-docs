@@ -10,29 +10,31 @@ To get a job
 
 ## Output
 
-### Success<br />
-{<br />
-  "status": 200,<br />
-  "message": "Job Found",<br />
-  "job": {<br />
-    "amount": "",<br />
-    "invoice_no": "",<br />
-    "imageEp": "",<br />
-    "name": "",<br />
-    "completedBy": "",<br />
-    "ocr_verified": "",<br />
-    "date": "",<br />
-    "pk": ,<br />
-    "user_verified": "",<br />
-    "user_id": "",<br />
-    "status": ""<br />
-  }<br />
-}<br />
-
-### If Job not present<br />
-{<br />
-  "status": 400,<br />
-  "message": "Job Not Found",<br />
-}<br />
-
+**Success**
+```
+{
+  "status": 200,
+  "message": "Job Found",
+  "job": {
+    "amount": "",
+    "invoice_no": "",
+    "imageEp": "",
+    "name": "",
+    "completedBy": "",
+    "ocr_verified": "",
+    "date": "",
+    "pk": ,
+    "user_verified": "",
+    "user_id": "",
+    "status": ""
+  }
+}
+```
+**If Job not present**
+```
+{
+  "status": 400,
+  "message": "Job Not Found",
+}
+```
 ***

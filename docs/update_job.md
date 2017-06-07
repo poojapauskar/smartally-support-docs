@@ -10,33 +10,37 @@ To update a job
 
 ## Input Fields
 
-### Raw Json Data<br />
-{<br />
-  "name" : "Pooja",<br />
-  "amount" : 100.50,<br />
-  "user_id" : 1<br />
+**Raw Json Data**
+```
+{
+  "name" : "Pooja",
+  "amount" : 100.50,
+  "user_id" : 1
 }
-    
+```   
 ***
 
 ## Output
 
-### Success<br />
-{<br />
-  	'status':200,<br />
-  	'message':'Job completed.',<br />
-}<br />
-
-### If job was already completed by another user<br />
-{<br />
-  	'status':401,<br />
-  	'message':'Job already completed.',<br />
-}<br />
-
-### If job not found<br />
-{<br />
-  	'status':400,<br />
-  	'message':'Job Not Found',<br />
+**Success**
+```
+{
+  	'status':200,
+  	'message':'Job completed.',
 }
-
+```
+**If job was already completed by another user**
+```
+{
+  	'status':401,
+  	'message':'Job already completed.',
+}
+```
+**If job not found**
+```
+{
+  	'status':400,
+  	'message':'Job Not Found',
+}
+```
 ***

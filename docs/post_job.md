@@ -10,46 +10,48 @@ To post a job
 
 ## Input Fields
 
-### Raw Json Data<br />
-{<br />
-    "imageEp" : image url string,<br />
-    "coordinates" : {<br />
-          "name" : {<br />
-               "x" : 124,<br />
-               "y" : 85,<br />
-               "w" : 68,<br />
-               "h" : 7<br />
-          },<br />
-          "amount" : {<br />
-               "x" : 201,<br />
-               "y" : 254,<br />
-               "w" : 55,<br />
-               "h" : 5<br />
-          }<br />
-    }<br />
-}<br />
-    
+**Raw Json Data**
+```
+{
+    "imageEp" : image url string,
+    "coordinates" : {
+          "name" : {
+               "x" : 124,
+               "y" : 85,
+               "w" : 68,
+               "h" : 7
+          },
+          "amount" : {
+               "x" : 201,
+               "y" : 254,
+               "w" : 55,
+               "h" : 5
+          }
+    }
+}
+```   
 ***
 
 ## Output
 
-### Success<br />
-{<br />
-  "status": 200,<br />
-  "message": "Job Saved",<br />
-  "job": {<br />
-    "amount": "",<br />
-    "invoice_no": "",<br />
-    "imageEp": "",<br />
-    "name": "",<br />
-    "completedBy": "",<br />
-    "ocr_verified": "1",<br />
-    "date": "",<br />
-    "pk": ,<br />
-    "user_verified": "",<br />
-    "user_id": "",<br />
-    "status": ""<br />
-  }<br />
-}<br />
-
+**Success**
+```
+{
+  "status": 200,
+  "message": "Job Saved",
+  "job": {
+    "amount": "",
+    "invoice_no": "",
+    "imageEp": "",
+    "name": "",
+    "completedBy": "",
+    "ocr_verified": "1",
+    "date": "",
+    "pk": ,
+    "user_verified": "",
+    "user_id": "",
+    "status": ""
+  }
+}
+```
 ***

@@ -10,26 +10,29 @@ To register a user
 
 ## Input Fields
 
-### Raw Json Data<br />
-{<br />
- 	"username" : "",<br />
- 	"password" : ""<br />
+**Raw Json Data**
+```
+{
+ 	"username" : "",
+ 	"password" : ""
 }
-    
+```   
 ***
 
 ## Output
 
-### Success<br />
-{<br />
-  	'status':200,<br />
-  	'message':'Registration Complete',<br />
-}<br />
-
-### If username already exists<br />
-{<br />
-  	'status':400,<br />
-  	'message':'Username exists',<br />
+**Success**
+```
+{
+  	'status':200,
+  	'message':'Registration Complete',
 }
-
+```
+**If username already exists**
+```
+{
+  	'status':400,
+  	'message':'Username exists',
+}
+```
 ***
