@@ -10,7 +10,7 @@ To login a user
 
 ## Input Fields
 
-Raw Json Data<br />
+### Raw Json Data<br />
 {<br />
  	"username" : "",<br />
  	"password" : ""<br />
