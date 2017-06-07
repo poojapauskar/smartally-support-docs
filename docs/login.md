@@ -21,8 +21,8 @@ Raw Json Data<br />
 Success<br />
 {<br />
   	'status':200,<br />
-  	'message':'Login successful.',
-  	'user id':"",
+  	'message':'Login successful.',<br />
+  	'user id':,<br />
 }<br />
 
 If user not present<br />
