@@ -10,13 +10,13 @@ To delete a job
 
 ## Output
 
-Success<br />
+### Success<br />
 {<br />
   "status": 200,<br />
   "message": "Job removed",<br />
 }<br />
 
-If Job not present<br />
+### If Job not present<br />
 {<br />
   "status": 400,<br />
   "message": "Job Not Found",<br />

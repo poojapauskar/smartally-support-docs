@@ -10,7 +10,7 @@ To register a user
 
 ## Input Fields
 
-Raw Json Data<br />
+### Raw Json Data<br />
 {<br />
  	"username" : "",<br />
  	"password" : ""<br />
@@ -20,13 +20,13 @@ Raw Json Data<br />
 
 ## Output
 
-Success<br />
+### Success<br />
 {<br />
   	'status':200,<br />
   	'message':'Registration Complete',<br />
 }<br />
 
-If username already exists<br />
+### If username already exists<br />
 {<br />
   	'status':400,<br />
   	'message':'Username exists',<br />

@@ -10,7 +10,7 @@ To get a job
 
 ## Output
 
-Success<br />
+### Success<br />
 {<br />
   "status": 200,<br />
   "message": "Job Found",<br />
@@ -29,7 +29,7 @@ Success<br />
   }<br />
 }<br />
 
-If Job not present<br />
+### If Job not present<br />
 {<br />
   "status": 400,<br />
   "message": "Job Not Found",<br />

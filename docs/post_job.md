@@ -10,7 +10,7 @@ To post a job
 
 ## Input Fields
 
-Raw Json Data<br />
+### Raw Json Data<br />
 {<br />
     "imageEp" : image url string,<br />
     "coordinates" : {<br />
@@ -33,7 +33,7 @@ Raw Json Data<br />
 
 ## Output
 
-Success<br />
+### Success<br />
 {<br />
   "status": 200,<br />
   "message": "Job Saved",<br />
