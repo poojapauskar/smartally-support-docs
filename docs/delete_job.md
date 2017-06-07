@@ -10,16 +10,19 @@ To delete a job
 
 ## Output
 
-### Success<br />
-{<br />
-  "status": 200,<br />
-  "message": "Job removed",<br />
-}<br />
-
-### If Job not present<br />
-{<br />
-  "status": 400,<br />
-  "message": "Job Not Found",<br />
-}<br />
+**Success**
+```
+{
+  "status": 200,
+  "message": "Job removed",
+}
+```
+**If Job not present**
+```
+{
+  "status": 400,
+  "message": "Job Not Found",
+}
+```
 
 ***
