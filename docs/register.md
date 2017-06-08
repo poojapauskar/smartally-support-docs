@@ -14,7 +14,9 @@ To register a user
 ```
 {
  	"username" : "",
- 	"password" : ""
+ 	"password" : "",
+ 	"identifier" : "device token",
+ 	"platform" : "android or ios"
 }
 ```   
 ***

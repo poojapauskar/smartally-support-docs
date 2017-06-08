@@ -25,6 +25,11 @@ To login a user
   	'status':200,
   	'message':'Login successful.',
   	'user id':,
+  	"user_details": {
+         "username": "pooja",
+         "pk": 1,
+         "password": "pooja123"
+    }
 }
 ```
 **If user not present**
