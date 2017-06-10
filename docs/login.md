@@ -1,6 +1,6 @@
 # Login
 
-    GET request
+    POST request
     https://reimburse.herokuapp.com/support_login/ 
 
 ## Description
