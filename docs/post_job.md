@@ -1,7 +1,7 @@
 # Post Job
 
     POST request
-    https://reimburse.herokuapp.com/ocr/
+    https://reimburse.herokuapp.com/ocr/?access_token=<user access token>
 
 ## Description
 To post a job
@@ -52,6 +52,13 @@ To post a job
     "user_id": "",
     "status": ""
   }
+}
+```
+**Invalid access token**
+```
+{
+    'status':401,
+    'message':'Access Token not valid',
 }
 ```
 ***

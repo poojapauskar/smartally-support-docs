@@ -28,7 +28,8 @@ To login a user
   	"user_details": {
          "username": "pooja",
          "pk": 1,
-         "password": "pooja123"
+         "password": "pooja123",
+         "access_token": ""
     }
 }
 ```

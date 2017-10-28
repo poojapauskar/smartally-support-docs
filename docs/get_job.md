@@ -1,7 +1,7 @@
 # Get Job
 
     GET request
-    https://reimburse.herokuapp.com/get_job/?id=<pk field received after adding a job>
+    https://reimburse.herokuapp.com/get_job/?id=<pk field received after adding a job>&access_token=<user access token>
 
 ## Description
 To get a job
@@ -35,6 +35,13 @@ To get a job
 {
   "status": 400,
   "message": "Job Not Found",
+}
+```
+**Invalid access token**
+```
+{
+    'status':401,
+    'message':'Access Token not valid',
 }
 ```
 ***

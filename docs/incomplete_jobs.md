@@ -1,7 +1,7 @@
 # Get Incomplete Jobs
 
     GET request
-    https://reimburse.herokuapp.com/get_incomplete_jobs/
+    https://reimburse.herokuapp.com/get_incomplete_jobs/?access_token=<access token of support user>
 
 ## Description
 To get all incomplete jobs in last 30 minutes
@@ -38,6 +38,13 @@ To get all incomplete jobs in last 30 minutes
 {
   "status": 400,
   "message": "No jobs in last half hour."
+}
+```
+**Invalid access token**
+```
+{
+    'status':401,
+    'message':'Access Token not valid',
 }
 ```
 ***
